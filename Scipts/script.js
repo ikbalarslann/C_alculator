@@ -43,6 +43,7 @@ var _loop_1 = function (btn) {
             display.textContent += ' ' + btn + ' ';
             _operator = btn;
             _firstNumber = _displayValue;
+            _displayValue = '';
             _nextNumber = '';
         }
         else if (btn === '=') {

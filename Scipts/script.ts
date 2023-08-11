@@ -54,6 +54,7 @@ for (const btn of btnArr) {
             display.textContent +=' '+ btn+' ';
             _operator = btn; 
             _firstNumber = _displayValue; 
+            _displayValue='';
             _nextNumber = '';
         } else if (btn === '=') {
             _nextNumber = _displayValue; 
